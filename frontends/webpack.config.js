@@ -13,6 +13,7 @@ module.exports = {
 
     output: {
         path: dist,
+        publicPath: '/',
         filename: 'static/js/[name]-bundle-[hash:8].js'
     },
 
