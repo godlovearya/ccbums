@@ -1,0 +1,6 @@
+*.pyc
+*.sqlite3
+*.code-workspace
+__pycache__
+frontends/dist
+frontends/node_modules

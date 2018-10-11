@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>财务管理系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="main">
+        <div class="topbar">
+            <div class="navbar" role="navigation">
+                <a class="navbar-brand">财务管理系统</a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link">消息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">任务</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">头像</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item">个人信息</a>
+                            <a class="dropdown-item">设置</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item">退出</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar">
+            <ul class="nav flex-column">
+                <li>
+                    <a class="active" href="#">首页</a>
+                </li>
+                <li>
+                    <a class="collapsed" data-toggle="collapse" data-target="#projects">项目</a>
+                    <ul id="projects" class="flex-column collapse">
+                        <li>
+                            <a class="collapsed" data-toggle="collapse" data-target="#p-sh">上海</a>
+                            <ul id="p-sh" class="flex-column collapse">
+                                <li>项目A</dt>
+                                <li>项目B</dt>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="collapsed" data-toggle="collapse" data-target="#p-bj">北京</a>
+                            <ul id="p-bj" class="flex-column collapse">
+                                <li>项目A</li>
+                                <li>项目B</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="collapsed" data-toggle="collapse" data-target="#p-cs">长沙</a>
+                            <ul id="p-cs" class="flex-column collapse">
+                                <li>项目A</li>
+                                <li>项目B</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="collapsed" data-toggle="collapse" data-target="#p-hf">合肥</a>
+                            <ul id="p-hf" class="flex-column collapse">
+                                <li>项目A</li>
+                                <li>项目B</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="collapsed" data-toggle="collapse" data-target="#p-tj">天津</a>
+                            <ul id="p-tj" class="flex-column collapse">
+                                <li>项目A</li>
+                                <li>项目B</li>
+                                <li>项目A</li>
+                                <li>项目B</li>
+                                <li>项目A</li>
+                                <li>项目B</li>
+                                <li>项目A</li>
+                                <li>项目B</li>
+                                <li>项目A</li>
+                                <li>项目B</li>
+                                <li>项目A</li>
+                                <li>项目B</li>
+                                <li>项目A</li>
+                                <li>项目B</li>
+                                <li>项目A</li>
+                                <li>项目B</li>
+                                <li>项目A</li>
+                                <li>项目B</li>
+                                <li>项目A</li>
+                                <li>项目B</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <br><br><br><br>
+        </div>
+        <div class="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+</body>
+</html>
