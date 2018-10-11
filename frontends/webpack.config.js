@@ -1,7 +1,7 @@
 const Path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const dist = Path.resolve(__dirname, '..', 'backends')
+const dist = Path.resolve(__dirname, '..', 'ccbums')
 
 module.exports = {
     mode: 'production',
