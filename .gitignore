@@ -4,3 +4,5 @@
 __pycache__
 frontends/dist
 frontends/node_modules
+backends/templates
+backends/static
